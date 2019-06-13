@@ -1,0 +1,21 @@
+@media screen and (max-width: 39.9375em) {
+	.top-bar, .top-bar ul{
+		height: 60px;
+	}
+
+	.menu-button > span{
+		display: none;
+	}
+
+	.main-logo{
+		width: 140px;
+	}
+
+	ul.button-top-bar li{
+		width: 40px;
+	}
+
+	ul.button-top-bar li img{
+		width: 25px;
+	}
+}

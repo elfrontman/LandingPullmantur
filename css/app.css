@@ -1,0 +1,79 @@
+.top-bar, .top-bar ul{
+	background-color: white;
+	position: relative;
+	padding-top: 0;
+	padding-bottom: 0;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	height: 70px;
+}
+
+.main-logo{
+	width: 160px;
+	display: block;
+	margin: 0 auto;
+}
+
+.menu-button{
+	color: #1a3172;
+	font-weight: bold;
+}
+
+.icon-menu{
+	position: relative;
+	width: 30px;
+	height: 25px;
+	display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+
+}
+
+.icon-menu span, .icon-menu:before, .icon-menu:after{
+	height: 6px;
+	width: 100%;
+	position: absolute;
+	background-color: #d8d8d8;
+	border-radius: 10px;
+}
+
+.icon-menu span{
+	bottom: 50%;
+	transform: translateY(50%);
+}
+.icon-menu:before{
+	content: '';
+	top: 0;
+}
+.icon-menu:after{
+	content: '';
+	bottom: 0;
+}
+
+ul.button-top-bar{
+	margin: 0;
+	list-style: none;
+	position: absolute;
+    bottom: 50%;
+    right: 0;
+    height: 100%;
+    transform: translateY(50%);
+    box-shadow: none;
+    font-size: 0;
+}
+
+ul.button-top-bar li{
+	display: inline-block;
+	width: 60px;
+	height: 100%;
+	border-left: 1px solid #d8d8d8;
+	vertical-align: top;
+	position: relative;
+}
+
+ul.button-top-bar li img{
+	width: 20px;
+	position: absolute;
+	right: 50%;
+	bottom: 50%;
+	transform: translate(50%, 50%);
+}
