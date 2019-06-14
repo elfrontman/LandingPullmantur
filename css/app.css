@@ -1,3 +1,53 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Black.woff2') format('woff2'),
+         url('../fonts/Lato-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),  url('../fonts/Gilroy-ExtraBold.otf')  format('opentype'),
+	     url('../fonts/Gilroy-ExtraBold.woff') format('woff'), url('../fonts/Gilroy-ExtraBold.ttf')  format('truetype'), url('../fonts/Gilroy-ExtraBold.svg#Gilroy-ExtraBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/Gilroy-Light.otf')  format('opentype'),
+	     url('../fonts/Gilroy-Light.woff') format('woff'), url('../fonts/Gilroy-Light.ttf')  format('truetype'), url('../fonts/Gilroy-Light.svg#Gilroy-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+	font-family: 'Gilroy';
+}
+
+h2{
+	font-family: 'Gilroy';
+	font-weight: bolder;
+	color: #1a3172;
+	line-height: 1;
+	margin-bottom: 1.5rem;
+}
+
+.grid-x > .custom-large-3{
+	width: 30%;
+	position: relative;
+}
+
+.grid-x > .custom-large-6{
+	width: 40%;
+	position: relative;
+}
+
+
+
 .top-bar, .top-bar ul{
 	background-color: white;
 	position: relative;
@@ -16,6 +66,8 @@
 .menu-button{
 	color: #1a3172;
 	font-weight: bold;
+	font-family: 'Gilroy'
+
 }
 
 .icon-menu{
@@ -76,4 +128,183 @@ ul.button-top-bar li img{
 	right: 50%;
 	bottom: 50%;
 	transform: translate(50%, 50%);
+}
+
+.info-banner-section{
+	margin-top: -5rem;
+    background: white;
+    position: relative;
+    padding: 0;
+    height: 250px;
+    overflow: hidden
+}
+
+.info-banner-section .cell{
+	position: relative;
+	height: 100%;
+}
+
+.box-description{
+	background-color: #75cdc8;
+	margin: 0;
+	list-style: none;
+	padding: 1.8rem 1rem; 
+}
+
+.box-description li{
+	font-weight: bold;
+	color: white;
+	margin-bottom: 0.8rem;
+}
+
+.box-description li:last-child{
+	margin-bottom: 0;
+}
+
+.box-description li i{
+	display: inline-block;
+	width: 60px;
+	vertical-align: super;
+}
+
+.box-description li span{
+	display: inline-block;
+	vertical-align: baseline;	
+}
+
+
+.map-travel img{
+	width: 100%;
+}
+
+
+.price-box{
+	position: absolute;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    width: 100%;
+}
+
+.price-text-box{
+	color: #1a3172;
+	font-size: 1.418rem;
+    width: 175px;
+    margin: 0 auto 1rem;
+    padding-top: 1rem;
+
+}
+
+.price-text-box strong{
+	font-size: 4rem;
+	display: block;
+	color: #1a3172;
+	line-height: 0.8;
+	text-align: right;
+}
+
+.price-text-box strong small{
+	font-size: 35%;
+	color: #1a3172;
+}
+
+
+.content-buttons{
+	text-align: center;
+}
+
+.button{
+	background-color: #75cdc8;
+	border-radius: 0;
+}
+
+section{
+	padding: 0;
+}
+
+section .title-section{
+	font-size: 2.1rem;
+	color: #1a3172;
+	font-weight: bold;
+	padding: 0.5rem 0;
+	margin: 1rem auto;
+}
+
+section .title-section img{
+	width: 80px;
+}
+
+section p{
+	font-size: 1.43rem;
+    line-height: 1.2;
+    padding-right: 2rem;
+}
+
+.slider{
+	position: relative;
+}
+
+.slider .content-slide{
+	padding: .5rem;
+	position: relative;
+}
+
+.slider .content-slide p{
+	position: absolute;
+    bottom: 2rem;
+    color: white;
+    text-align: center;
+    padding: 0;
+    width: 95%;
+    right: 50%;
+    transform: translateX(50%);
+    line-height: 1.1;
+    font-size: 1.25rem;
+}
+
+.arrow-slider{
+	cursor: pointer;
+	position: absolute;
+	bottom: 50%;
+	transform: translateY(50%);
+}
+
+.arrow-slider img{
+	width: 100px;
+}
+
+#prevArrow{
+	left: -5%;
+}
+
+#prevArrow img{
+	transform: rotate(180deg);
+}
+#nextArrow{
+	right: -7%;
+}
+
+.slick-dots{
+	bottom: -40px;
+}
+
+.slick-dots li{
+	width: 90px;
+	height: 25px;
+}
+
+.slick-dots li button{
+	width: 80px;
+	height: 16px;
+	background-color: #d1d1d1;
+	border-radius: 0;
+}
+
+.slick-dots li button:before{
+	content: '';
+}
+
+
+.slick-dots li.slick-active button{
+	background-color: #75cdc8;
 }
