@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>Pullmantur Cruceros</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
@@ -28,7 +28,7 @@
         </div>
         <div class="cell small-2 medium-2 large-2">
           <ul class="button-top-bar">
-            <li>
+            <li class="hide-for-medium">
               <a class="button-phone">
                 <img src="images/SVG/search_icon.svg" alt="Phone Icon">
               </a>
@@ -43,7 +43,8 @@
       </div>
 
       <div class="banner-section">
-        <img src="images/MainBanner.jpg" alt="Main Banner">
+        <img class="show-for-medium" src="images/MainBanner.jpg" alt="Main Banner">
+        <img class="show-for-small-only" src="images/Movil/MainBanner.jpg" alt="Main Banner">
       </div>
 
       <div class="grid-x grid-container info-banner-section">
@@ -63,7 +64,7 @@
               </li>
             </ul>
           </div>
-          <div class="cell small-12 medium-6 large-6">
+          <div class="cell small-12 medium-6 large-6 hide-for-small-only">
             <div class="map-travel">
               <img src="images/MapTravel.jpg" alt="Map Travel">
             </div>
@@ -81,13 +82,20 @@
             </div>
             
           </div>
+          <div class="cell small-12 medium-12 large-12">
+            <a href="" class="button-intinerario">
+              <i><img src="images/SVG/view_icon.svg" alt=""></i>
+              Ver intinerario
+            </a>
+
+          </div>
       </div>
     </header>
 
     <section class="grid-x grid-padding-x grid-container">
       <div class="cell small-12 title-section">
         <i><img src="images/SVG/experience_icon.svg" alt=""></i>
-        Una experiencia de Rock en español de Pullmantur para ti
+        <span>Una experiencia de Rock en español de Pullmantur para ti</span>
       </div>
 
       <div class="cell small-12 medium-6 large-6">
@@ -96,13 +104,14 @@
       </div>
       <div class="cell small-12 medium-6 large-6">
         <figure>
-          <img src="images/section.jpg" alt="">
+          <img class="show-for-medium" src="images/section.jpg" alt="Main Banner">
+        <img class="show-for-small-only" src="images/Movil/section.jpg" alt="Main Banner">
         </figure>
       </div>
     </section>
 
     <section class="grid-x grid-padding-x grid-container">
-      <div class="cell small-12 title-section">
+      <div class="cell small-12 title-section activities_section">
         <i><img src="images/SVG/activities_icon.svg" alt=""></i>
         ACCTIVIDADES PROGRAMADAS
       </div>
@@ -155,12 +164,141 @@
       
     </section>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <section class="grid-x grid-padding-x  banner-contacto">
+      <div class="grid-container">
+        <div class="content-banner-contacto">
+          <i><img src="images/SVG/contact_icon.svg"></i>
+          <span>
+            No te quedes <strong>sin vivir esta experiencia</strong><br>
+            déjanos tus datos y <strong>nosotos te llamamos.</strong>
+          </span>
+
+          <div class="button">¡CONTÁCTANOS!</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid-x grid-padding-x banner-terminos">
+      <div class="grid-container">
+        <p>El precio no incluye ni tasas y otros cargos, ni cargos por servicio administración. No incluye excursiones.
+           Programa: la empresa organizadora se reserva el derecho a modificar o alterar el programa expuesto.
+          Este programa y la experiencia Crucero de Rock en Español es ofrecida a mayores de edad.</p>
+
+          <a href="">VER TÉRMINOS Y CONDICIONES</a>
+
+
+      </div>
+    </section>
+
+    <footer>
+      <div class="link-footer">
+        <div class="grid-x grid-container">
+
+          <div class="cell small-12 medium-2 large-2 large-order-2">
+            <div class="icons-lang-footer">
+              Seleccione idioma
+              <ul>
+                <li>
+                  <a class="active"><img src="images/language_es.png" alt="Icon Lange Spanish"></a>
+                </li>
+                <li>
+                  <a><img src="images/language_en.png" alt="Icon Lange English"></a>
+                </li>
+                <li>
+                  <a><img src="images/language_pt.png" alt="Icon Lange Portuguese"></a>
+                </li>
+                <li>
+                  <a><img src="images/language_fr.png" alt="Icon Lange French"></a>
+                </li>
+                <li>
+                  <a><img src="images/language_int.png" alt="Icon Lange International"></a>
+                </li>
+                <li>
+                  <a><img src="images/language_latam.png" alt="Icon Lange Latam"></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="icons-payment-footer">
+              Con la garantía de
+              <ul>
+                <li>
+                  <a class="active"><img src="images/visa_mastercard.png" alt="Icon Payment"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="cell small-12 medium-10 large-10 large-order-1">
+            <ul class="main-list-footer"> 
+              <li> 
+                <h4><a>Pullmantur</a></h4> 
+                <ul> 
+                  <li><a>Todo Incluido</a></li> 
+                  <li><a>Mejor precio garantizado</a></li> 
+                  <li><a>Excursiones</a></li> 
+                  <li><a>Catálogos</a></li> 
+                  <li><a>Trabaja con nosotros</a></li> 
+                  <li><a>Check-in</a></li> 
+                  <li><a>Contacto para clientes</a></li> 
+                </ul>
+              </li> 
+            <li> 
+              <h4><a>Cruceros</a></h4> 
+              <ul> 
+                <li><a>Cruceros por el Mediterráneo</a></li> 
+                <li><a>Cruceros por el Caribe</a></li> 
+                <li><a>Cruceros por los Fiordos Noruegos</a></li> 
+                <li><a>Cruceros por el Báltico</a></li> 
+                <li><a>Cruceros por Islas Canarias</a></li> 
+                <li><a>Cruceros por las Islas Griegas</a></li> 
+                <li><a>Cruceros por el Adriático</a></li> 
+                <li><a>Cruceros Transatlánticos y especiales</a></li> 
+              </ul>
+            </li> 
+            <li> 
+              <h4>
+                <a>Barcos</a>
+              </h4> 
+              <ul > 
+                <li><a>Monarch</a></li> 
+                <li><a>Sovereign</a></li> 
+                <li><a>Zenith</a></li> 
+                <li><a>Horizon</a></li> 
+              </ul>
+            </li> 
+            <li> 
+              <h4><a>Agencias</a></h4> 
+              <ul> 
+                <li><a>Internacional</a></li> 
+                <li><a>Latam</a></li> 
+                <li><a>Localiza tu distribuidor</a></li> 
+              </ul>
+            </li> 
+            <li> 
+              <h4>
+                <a>Legal</a>
+              </h4> 
+              <ul> 
+                <li><a>Seguros</a></li> 
+                <li><a>Condiciones generales</a></li> 
+                <li><a>Aviso legal</a></li> 
+                <li><a>Protección de datos</a></li> 
+                <li><a>Derechos de los pasajeros</a></li> 
+                <li><a>Reclamaciones</a></li> 
+              </ul>
+            </li>
+          </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="copyright-footer">
+        <div class="grid-x grid-container grid-padding-x">
+           © Pullmantur Cruises S.L. 2019 Cicma 1878 · Todos los derechos reservados 
+        </div>
+      </div>
+      
+    </footer>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>

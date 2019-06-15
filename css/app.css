@@ -36,6 +36,10 @@ h2{
 	margin-bottom: 1.5rem;
 }
 
+.grid-container{
+	width: 100%;
+}
+
 .grid-x > .custom-large-3{
 	width: 30%;
 	position: relative;
@@ -69,6 +73,25 @@ h2{
 	font-family: 'Gilroy'
 
 }
+
+.button-intinerario{
+	color: #1a3172;
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button-intinerario i{
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.button-intinerario i img{
+	width: 30px
+}
+
+
 
 .icon-menu{
 	position: relative;
@@ -242,6 +265,11 @@ section p{
 
 .slider{
 	position: relative;
+	margin-bottom: 5rem;
+}
+
+.slider ul{
+	margin: 0;
 }
 
 .slider .content-slide{
@@ -270,22 +298,22 @@ section p{
 }
 
 .arrow-slider img{
-	width: 100px;
+	width: 32px;
 }
 
 #prevArrow{
-	left: -5%;
+	left: -4%;
 }
 
 #prevArrow img{
 	transform: rotate(180deg);
 }
 #nextArrow{
-	right: -7%;
+	right: -4%;
 }
 
 .slick-dots{
-	bottom: -40px;
+	bottom: -50px;
 }
 
 .slick-dots li{
@@ -307,4 +335,153 @@ section p{
 
 .slick-dots li.slick-active button{
 	background-color: #75cdc8;
+}
+
+.banner-contacto{
+	background-color: #1a3172;
+	color: white;
+	font-size: 2.5rem;
+	text-align: center;
+	padding: 1.5rem;
+}
+
+.banner-contacto span{
+	display: block;
+	width: 100%;
+	line-height: 1.2;
+	margin: 1rem auto 2rem;
+	letter-spacing: -1.5px;
+}
+
+.banner-contacto span strong{
+	letter-spacing: 0.5px;
+}
+
+.banner-contacto .button{
+	font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1.4rem;
+    min-width: 530px;
+}
+
+.banner-contacto i img{
+	width: 100px;
+	display: block;
+	margin: 0 auto;
+}
+
+.banner-terminos{
+	padding: 1.5rem;
+	text-align: center;
+}
+
+.banner-terminos p{
+	text-align: left;
+	font-size: 1.45rem;
+}
+
+.banner-terminos a{
+	display: inline-block;
+	font-size: 1.93rem;
+	text-align: center;
+	color: #1a3172;
+	border-bottom: 2px solid;
+	font-weight: bold;
+}
+
+footer{
+	background-color: #1a3172;
+	color: white;
+}
+
+
+footer .link-footer{
+	padding: 3.5rem 0;
+}
+
+
+footer .main-list-footer a{
+	color: white;
+	font-size: 0.9rem;
+	line-height: 1.1;
+	margin-bottom: 0.5rem;
+	display: block;
+}
+
+footer .main-list-footer h4 a{
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+
+
+footer .main-list-footer, footer .main-list-footer li > ul{
+	list-style: none;
+	margin: 0;
+	color: white;
+}
+
+footer .main-list-footer{
+	font-size: 0;
+}
+
+footer .main-list-footer > li{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+    padding: 0 0.8rem;
+}
+
+footer .main-list-footer > li:first-child{
+	padding-left: 0;
+}
+
+footer .icons-lang-footer, footer .icons-payment-footer{
+	font-size: 0.9rem;
+}
+
+footer .icons-lang-footer ul, footer .icons-payment-footer ul{
+	list-style: none;
+	margin: 5px 0 3rem;
+	font-size: 0;
+	max-width: 130px;
+}
+
+footer .icons-lang-footer li{
+	display: inline-block;
+	width: 33.33%;
+	margin-bottom: 8px;
+}
+
+footer .icons-lang-footer li a{
+	display: block;
+	border-radius: 50%;
+	border: 1px solid white;
+	padding: 2px;
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+	text-align: center;
+	opacity: 0.5;
+	transition: all 0.28s ease-out;
+	position: relative;
+
+}
+
+footer .icons-lang-footer li a.active, footer .icons-lang-footer li a:hover{
+	opacity: 1;
+}
+
+footer .icons-lang-footer li a img{
+	display: block;
+	border-radius: 50%;
+	width: 85%;
+	position: absolute;
+	right: 50%;
+	bottom: 50%;
+	transform: translate(50%, 50%);
+}
+
+footer .copyright-footer{
+	border-top: 1px solid;
+	padding: 0.5rem 0;
 }

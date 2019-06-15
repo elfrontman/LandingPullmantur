@@ -3,6 +3,23 @@
 		height: 60px;
 	}
 
+	.info-banner-section{
+		height: auto;
+		background-color: transparent;
+	}
+
+	.box-description{
+		max-width: 95%;
+		margin: 0 auto;
+	}
+
+	.price-box {
+	    position: static;
+	    transform: none;
+	    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+	    margin-bottom: 1rem;
+	}
+
 	.menu-button > span{
 		display: none;
 	}
@@ -17,5 +34,141 @@
 
 	ul.button-top-bar li img{
 		width: 25px;
+	}
+
+	.banner-contacto{
+		font-size: 1.5rem;
+	}
+
+	.banner-contacto .button{
+		min-width: 90%;
+		font-size: 1.5rem;
+	}
+
+	section h2{
+		text-align: center;
+		font-size: 1.4rem;
+	}
+
+	section p{
+		font-size: 1rem;
+		padding: 0;
+	}
+
+
+	section .title-section{
+		position: relative;	
+		margin-bottom: 0;
+		font-size: 1.1rem;
+		text-align: center;
+		max-width: 310px;
+	}
+
+
+	section .title-section i{
+		display: inline-block;
+	    position: absolute;
+	    left: -6%;
+	    top: -2px;
+	}
+
+	section .title-section.activities_section i {
+		left: -1%;
+		top: -1px;
+	}
+
+	section .title-section.activities_section i img{
+		width: 40px;
+	}
+
+	section .title-section i img{
+		width: 64px;
+	} 
+
+	section .title-section span{
+		font-size: 0.8rem;
+		display: block;
+		text-align: center;
+		width: 220px;
+		vertical-align: middle;
+		margin: 0 auto;
+		line-height: 1.12;
+	}
+
+	.arrow-slider img{
+		width: 28px;
+	}
+
+	#prevArrow {
+	    left: -8%;
+	}
+
+	#nextArrow{
+		right: -8%;
+	}
+
+	.slick-dots{
+		bottom: -30px;
+	}
+
+	.slick-dots li {
+	    width: 30px;
+	    height: 20px;
+	}
+
+	.slick-dots li button{
+		width: 35px;
+		height: 9px
+	}
+
+	.banner-contacto span{
+		font-size: 1.6rem;
+	}
+
+	.banner-terminos p{
+		font-size: 0.9rem;
+	}
+
+	.banner-terminos a{
+		font-size: 0.9rem;
+	}
+
+	footer .link-footer{
+		text-align: center;
+		padding-bottom: 1rem;
+	}
+
+	footer .icons-lang-footer ul, footer .icons-payment-footer ul{
+		text-align: center;
+		max-width: 100%;
+	}
+
+	footer .icons-lang-footer li{
+		width: auto;
+		margin: 0 0.5rem;
+	}
+
+	footer .main-list-footer > li{
+		width: auto;
+		display: block;
+		padding: 0
+	}
+
+	footer .main-list-footer > li ul{
+		display: none;
+	}
+
+	footer .main-list-footer a{
+		margin-bottom: 1.4rem;
+	}
+
+	footer .main-list-footer h4 a{
+		font-size: 1rem;
+	}
+
+	footer .copyright-footer{
+		font-size: 0.8rem;
+		line-height: 1;
+		text-align: center;
 	}
 }
