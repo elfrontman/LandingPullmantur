@@ -98,7 +98,7 @@
 
 	section .title-section.activities_section i {
 		left: -1%;
-		top: -1px;
+		top: -8px;
 	}
 
 	section .title-section.activities_section i img{
@@ -200,6 +200,14 @@
 		font-size: 0.8rem;
 		line-height: 1;
 		text-align: center;
+	}
+
+	.reveal{
+		    padding-top: 3rem;
+	}
+
+	.reveal .close-button{
+		top: 0.5rem;
 	}
 }
 

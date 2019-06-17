@@ -418,6 +418,64 @@ section p{
 	font-weight: bold;
 }
 
+.reveal{
+	background: transparent;
+    border: none;
+    overflow-y: visible;
+}
+
+.reveal .close-button{
+	top: -1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.content-phones{
+	padding: 1rem;
+	background: white;
+}
+
+.content-phones ul{
+	margin: 0;
+	list-style: none;
+	background: #f9f9f9;
+	padding: 1rem;
+}
+
+.content-phones ul li{
+	position: relative;
+	padding-left: 2.7rem;
+    margin-bottom: 1rem;
+}
+
+.content-phones ul li h2{
+	font-size: 0.9rem;
+	margin-bottom: 0;
+	font-weight: normal;
+}
+
+.content-phones ul li i{
+	position: absolute;
+	left: 2px;
+	width: 32px;
+}
+
+.content-phones ul li p{
+	margin-bottom: 0;
+	font-size: 0.9rem;
+	color: #002c75;
+	line-height: 1.3;
+    margin-bottom: 0.5rem;
+}
+
+.content-phones ul li p.free{
+    color: #4fcbc6;
+    background: white;
+    display: inline-block;
+}
+
+
+
 footer{
 	background-color: #1a3172;
 	color: white;

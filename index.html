@@ -34,7 +34,7 @@
               </a>
             </li>
             <li>
-              <a class="button-phone">
+              <a class="button-phone"   data-toggle="phoneModal">
                 <img src="images/SVG/phone_icon.svg" alt="Phone Icon">
               </a>
             </li>
@@ -105,8 +105,8 @@
         </div>
         <div class="cell small-12 medium-12 large-6">
           <figure>
-            <img class="show-for-large-only" src="images/section.jpg" alt="Main Banner">
-            <img class="show-for-medium" src="images/Movil/section.jpg" alt="Main Banner">
+            <img class="show-for-large" src="images/section.jpg" alt="Main Banner">
+            <img class="hide-for-large" src="images/Movil/section.jpg" alt="Main Banner">
           </figure>
         </div>
       </div>
@@ -115,7 +115,7 @@
     <section class="grid-x grid-padding-x grid-container">
       <div class="cell small-12 title-section activities_section">
         <i><img src="images/SVG/activities_icon.svg" alt=""></i>
-        ACCTIVIDADES PROGRAMADAS
+        <span>ACTIVIDADES PROGRAMADAS</span>
       </div>
 
       <div class="cell small-12 medium-12 large-12">
@@ -302,9 +302,103 @@
       
     </footer>
 
+    <div class="reveal" id="phoneModal" data-reveal data-animation-in="slide-in-down fast" data-animation-out="slide-out-up fast" >
+      <div class="content-phones">
+        <ul class="grid-x">
+          <li class="cell small-6 medium-4">
+            <i><img src="images/flag_argentina.png" alt="Phone Argentina"></i>
+            <h2>Argentina</h2>
+            <p>(0) 800 345 7958</p>
+            <p class="free">Gratuito</p>
+          </li>
+          <li class="cell small-6 medium-4">
+            <i><img src="images/flag_chile.png" alt="Phone Chile"></i>
+            <h2>Chile</h2>
+            <p>800 914 015</p>
+            <p class="free">Gratuito</p>
+          </li>
+          <li class="cell small-6 medium-4">
+            <i><img src="images/flag_colombia.png" alt="Phone Colombia"></i>
+            <h2>Colombia</h2>
+            <p>(01) 800 518 4706</p>
+            <p class="free">Gratuito</p>
+          </li>
+          <li class="cell small-6 medium-4">
+            <i><img src="images/flag_costarica.png" alt="Phone Costa Rica"></i>
+            <h2>Costa Rica</h2>
+            <p>800 477 5388</p>
+            <p class="free">Gratuito</p>
+          </li>
+          <li class="cell small-6 medium-4">
+            <i><img src="images/flag_ecuador.png" alt="Phone Ecuador"></i>
+            <h2>Ecuador</h2>
+            <p>(1) 180 000 0421</p>
+            <p class="free">Gratuito</p>
+          </li>
+          <li class="cell small-6 medium-4">
+            <i><img src="images/flag_elsalvador.png" alt="Phone El Salvador"></i>
+            <h2>El Salvador</h2>
+            <p>12345678</p>
+            <p class="free">Local</p>
+          </li>
+          <li class="cell small-6 medium-4">
+            <i><img src="images/flag_guatemala.png" alt="Phone Guatemala"></i>
+            <h2>Guatemala</h2>
+            <p>226 87743</p>
+            <p class="free">Local</p>
+          </li>
+          <li class="cell small-6 medium-4">
+            <i><img src="images/flag_mexico.png" alt="Phone México"></i>
+            <h2>México</h2>
+            <p>(01) 800 733 4071</p>
+            <p class="free">Gratuito</p>
+          </li>
+          <li class="cell small-6 medium-4">
+            <i><img src="images/flag_panama.png" alt="Phone Panamá"></i>
+            <h2>Panamá</h2>
+            <p>800 0224</p>
+            <p class="free">Gratuito</p>
+          </li>
+          <li class="cell small-6 medium-4">
+            <i><img src="images/flag_peru.png" alt="Phone Perú"></i>
+            <h2>Perú</h2>
+            <p>(0) 800 71300</p>
+            <p class="free">Gratuito</p>
+          </li>
+          <li class="cell small-6 medium-4">
+            <i><img src="images/flag_puertorico.png" alt="Phone Argentina"></i>
+            <h2>Puerto Rico</h2>
+            <p>800 790 2876</p>
+            <p class="free">Gratuito</p>
+          </li>
+          <li class="cell small-6 medium-4">
+            <i><img src="images/flag_republicadominicana.png" alt="Phone Rep. Dominicana"></i>
+            <h2>Rep. Dominicana</h2>
+            <p>(1) 829 200 1112</p>
+            <p class="free">Gratuito</p>
+          </li>
+          <li class="cell small-6 medium-4">
+            <i><img src="images/flag_uruguay.png" alt="Phone Uruguay"></i>
+            <h2>Uruguay</h2>
+            <p>(000) 401 90866</p>
+            <p class="free">Gratuito</p>
+          </li>
+          <li class="cell small-6 medium-4">
+            <i><img src="images/flag_venezuela.png" alt="Phone Venezuela"></i>
+            <h2>Venezuela</h2>
+            <p>(0) 800 400 0444</p>
+            <p class="free">Gratuito</p>
+          </li>
+        </ul>
+      </div>
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
     <script src="js/vendor/slick.min.js"></script>
     <script src="js/app.js"></script>
   </body>
