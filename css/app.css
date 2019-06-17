@@ -50,6 +50,10 @@ h2{
 	position: relative;
 }
 
+.banner-section img{
+	width: 100%;
+}
+
 
 
 .top-bar, .top-bar ul{
