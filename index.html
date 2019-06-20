@@ -54,9 +54,15 @@
               </a>
             </li>
             <li>
-              <a class="button-phone"   data-toggle="phoneModal">
+              <a class="button-phone">
                 <img src="images/SVG/phone_icon.svg" alt="Phone Icon">
               </a>
+
+              <div id="drop-phone"  class="drop-phone" style="display: none">
+                  <a href="#" class="link-button" data-toggle="phoneModal">Llámanos</a>
+                  <span class="separator-drop">O si prefieres</span>
+                  <a href="#" class="button" data-toggle="formModal">¿Te llamamos?</a>
+              </div>
             </li>
           </ul>
         </div>
@@ -195,7 +201,7 @@
             déjanos tus datos y <strong>nosotos te llamamos.</strong>
           </span>
 
-          <div class="button">¡CONTÁCTANOS!</div>
+          <a class="button" data-toggle="formModal">¡CONTÁCTANOS!</a>
         </div>
       </div>
     </section>
@@ -321,6 +327,13 @@
       </div>
       
     </footer>
+
+    <div class="reveal" id="formModal" data-reveal data-animation-in="slide-in-down fast" data-animation-out="slide-out-up fast" >
+      <iframe src="https://pub.s7.exacttarget.com/tn2vinfxhgn?web=TRA&idiom=es_ES&_ga=2.246838340.1136780833.1561058834-561955710.1560435123&_gac=1.141676166.1560438466.EAIaIQobChMIp5u26s7m4gIVU1uGCh14yQBPEAAYAiAAEgJ8afD_BwE" frameborder="0"></iframe>
+       <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
 
     <div class="reveal" id="phoneModal" data-reveal data-animation-in="slide-in-down fast" data-animation-out="slide-out-up fast" >
       <div class="content-phones">

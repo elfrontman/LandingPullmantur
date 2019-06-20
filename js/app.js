@@ -24,3 +24,10 @@ $('.slider ul').slick({
 	}
 	]
 });
+
+$(document).ready(function(){
+	$('.button-phone').click(function(){
+		$('#drop-phone').toggle();
+	})
+
+})
