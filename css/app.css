@@ -329,6 +329,16 @@ section p{
     transform: translateX(50%);
     line-height: 1.1;
     font-size: 1.25rem;
+    margin-bottom: 0;
+    height: 90px;
+}
+
+.slider .content-slide i{
+	position: absolute;
+    width: 100px;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
 }
 
 .arrow-slider{
