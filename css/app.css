@@ -333,12 +333,16 @@ section p{
     height: 90px;
 }
 
-.slider .content-slide i{
+.slider .content-slide .label-section{
 	position: absolute;
-    width: 100px;
     right: 50%;
     bottom: 50%;
     transform: translate(50%, 50%);
+}
+
+.slider .content-slide i{
+	width: 100px;
+	display: block;
 }
 
 .arrow-slider{
