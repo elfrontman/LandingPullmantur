@@ -219,10 +219,11 @@ ul.button-top-bar li img{
 
 .price-text-box{
 	color: #1a3172;
-	font-size: 1.418rem;
-    width: 175px;
+    font-size: 1rem;
+    width: 226px;
     margin: 0 auto 1rem;
     padding-top: 1rem;
+    line-height: 1.1;
 
 }
 
@@ -231,7 +232,14 @@ ul.button-top-bar li img{
 	display: block;
 	color: #1a3172;
 	line-height: 0.8;
-	text-align: right;
+	text-align: center;
+	margin: 10px 0 0;
+}
+
+.price-text-box span{
+	text-align: center;
+	display: block;
+	font-size: 1.4rem;
 }
 
 .price-text-box strong small{
@@ -410,12 +418,12 @@ section p{
 
 .banner-terminos p{
 	text-align: left;
-	font-size: 1.45rem;
+	font-size: 0.9rem;
 }
 
 .banner-terminos a{
 	display: inline-block;
-	font-size: 1.93rem;
+	font-size: 1.4rem;
 	text-align: center;
 	color: #1a3172;
 	border-bottom: 2px solid;
