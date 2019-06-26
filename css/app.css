@@ -230,28 +230,42 @@ ul.button-top-bar li img{
 }
 
 .price-text-box strong{
-	font-size: 4rem;
+	font-size: 1.5rem;
 	display: block;
 	color: #1a3172;
 	line-height: 0.8;
 	text-align: center;
-	margin: 10px 0 0;
+	margin: 10px 0 1px;
 }
 
 .price-text-box span{
 	text-align: center;
 	display: block;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
+    
 }
 
 .price-text-box strong small{
-	font-size: 35%;
+	font-size: 65%;
 	color: #1a3172;
 }
 
 
 .content-buttons{
 	text-align: center;
+}
+
+.content-buttons .button{
+	margin-bottom: 0;
+}
+
+.disclaimer{
+	font-size: 12px;
+    line-height: 1;
+    display: block;
+    width: 65%;
+    margin: 4px auto 0;
+    color: #193172;
 }
 
 .button{
