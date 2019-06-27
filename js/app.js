@@ -30,20 +30,16 @@ $(document).ready(function(){
 		$('#drop-phone').toggle();
 	})
 
-	$('#formModal').foundation('open')
-
-	
-
 	$('.newslater-event').click(function(){
-		dataLayer.push({'event':'ga-event','eventCategory':'informativa_crucero_graciastotales','eventAction':'suscripcion','eventLabel':'OK'})	
+		dataLayer.push({'event':'ga-event','eventCategory':'informativa_crucero_graciastotales','eventAction':'suscripcion'})	
 	})
 
 	$('.callmeback-event').click(function(){
-		dataLayer.push({'event':'ga-event','eventCategory':'informativa_crucero_graciastotales','eventAction':'call-me-back','eventLabel':'OK'})	
+		dataLayer.push({'event':'ga-event','eventCategory':'informativa_crucero_graciastotales','eventAction':'call-me-back'})	
 	})
 
 	$('.clicktocall-event').click(function(){
-		dataLayer.push({'event':'ga-event','eventCategory':'informativa_crucero_graciastotales','eventAction':'click-to-call','eventLabel':'OK'})	
+		dataLayer.push({'event':'ga-event','eventCategory':'informativa_crucero_graciastotales','eventAction':'click-to-call'})	
 	})
 
 	$('.button-intinerario').click(function(event){
