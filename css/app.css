@@ -230,7 +230,7 @@ ul.button-top-bar li img{
 }
 
 .price-text-box strong{
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 	display: block;
 	color: #1a3172;
 	line-height: 0.8;
@@ -354,7 +354,7 @@ section p{
 }
 
 .slider .content-slide i{
-	width: 100px;
+	width: 80px;
 	display: block;
 	margin: 0 auto 0.5rem;
 }
