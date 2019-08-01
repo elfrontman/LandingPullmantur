@@ -222,10 +222,16 @@
 		
 	}
 
+	.box-description li i{
+		width: 55px;
+	}
+
 	
 }
 
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+
+@media screen and (min-width: 40em) and (max-width: 71.875em) {
 
 	.info-banner-section{
 		margin-top: 0;
@@ -248,4 +254,24 @@
 	footer .icons-lang-footer, footer .icons-payment-footer{
 		font-size: 0.7rem;
 	}
+
+	.box-description{
+		padding: 1.8rem 0.5rem;
+	}
+
+	.box-description li .small-text{
+		font-size: 12px;
+	}
+
+	.box-description li i{
+		width: 40px;
+	}
+}
+
+@media screen and (min-width: 40em) and (max-width: 64em) {
+	.box-description li .small-text{
+		font-size: 12px;
+	}
+
+	
 }
