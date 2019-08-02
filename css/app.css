@@ -231,11 +231,13 @@ ul.button-top-bar li img{
 
 .price-text-box{
 	color: #1a3172;
-    font-size: 1rem;
+    font-size: 1.25rem;
     width: 226px;
     margin: 0 auto 1rem;
     padding-top: 1rem;
     line-height: 1.1;
+    text-align: center;
+    font-weight: bold;
 
 }
 
