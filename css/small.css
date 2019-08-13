@@ -36,6 +36,14 @@
 		width: 140px;
 	}
 
+	.button-main-bar{
+		display: none;
+	}
+
+	ul.button-top-bar{
+		display: block;
+	}
+
 	ul.button-top-bar li{
 		width: 40px;
 	}

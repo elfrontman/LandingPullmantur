@@ -142,6 +142,7 @@ ul.button-top-bar{
     transform: translateY(50%);
     box-shadow: none;
     font-size: 0;
+    display: none;
 }
 
 ul.button-top-bar li{
@@ -613,6 +614,27 @@ section p{
 	display: none !important;
 }
 
+.link-header-button{
+	display: inline-block;
+    color: #003078;
+    font-weight: 600;
+    padding-left: 0.5rem;
+    font-size: 0.8rem;
+    outline: none;
+}
+
+.link-header-button:hover, .link-header-button:focus{
+	  color: #333;
+}
+
+.link-header-button i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 0.5rem;
+	margin-top: -5px;
+}
 
 footer{
 	background-color: #1a3172;

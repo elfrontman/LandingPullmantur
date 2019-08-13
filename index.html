@@ -36,32 +36,32 @@
   <body>
     
     <header>
-      <div class="top-bar grid-x">
-        <div class="cell small-1 medium-2 large-2">
-          <a class="menu-button">
+      <div class="top-bar grid-x" data-sticky  data-sticky-on="small" data-margin-top="0">
+        <div class="cell small-3 medium-3 large-3">
+          <!-- <a class="menu-button">
             <div class="icon-menu">
               <span></span>
             </div>
             <span>Menú</span>
-          </a>
+          </a> -->
         </div>
-        <div class="cell small-8 medium-8 large-8">
+        <div class="cell small-6 medium-6 large-6">
           <a href="/"><img class="main-logo"  src="images/SVG/MainLogo.svg" alt="Main Logo"></a>
         </div>
-        <div class="cell small-2 medium-2 large-2">
+        <div class="cell small-3 medium-3 large-3 text-right">
+          <div class="button-main-bar">
+            <a href="#" class="link-header-button clicktocall-event" data-toggle="phoneModal"><i><img src="images/llamanos-gratis.png" alt=""></i>Llámanos gratis</a>
+            <a href="#" class="link-header-button callmeback-event" data-toggle="formModal"><i><img src="images/te-llamamos.png" alt=""></i>¿Te llamamos?</a>  
+          </div>
+          
           <ul class="button-top-bar">
-            <li class="hide-for-medium">
-              <a class="button-phone">
-                <img src="images/SVG/search_icon.svg" alt="Phone Icon">
-              </a>
-            </li>
             <li>
               <a class="button-phone">
                 <img src="images/SVG/phone_icon.svg" alt="Phone Icon">
               </a>
 
               <div id="drop-phone"  class="drop-phone" style="display: none">
-                  <a href="#" class="link-button clicktocall-event" data-toggle="phoneModal">Llámanos</a>
+                  <a href="#" class="link-button clicktocall-event" data-toggle="phoneModal">Llámanos gratis</a>
                   <span class="separator-drop ">O si prefieres</span>
                   <a href="#" class="button callmeback-event" data-toggle="formModal">¿Te llamamos?</a>
               </div>
@@ -157,7 +157,7 @@
           <i><img src="images/SVG/contact_icon.svg"></i>
           <span>
             No te quedes <strong>sin vivir esta experiencia</strong><br>
-            déjanos tus datos y <strong>nosotos te llamamos.</strong>
+            déjanos tus datos y <strong>nosotros te llamamos.</strong>
           </span>
 
           <a class="button newslater-event" data-toggle="formModal" >¡CONTÁCTANOS!</a>
@@ -232,12 +232,10 @@
       
     </section>
 
-  
-
     <section class="grid-x grid-padding-x banner-terminos">
       <div class="grid-container">
         <p>
-          (*)Precios “desde” y sin IVA. Cupos limitados y sujetos a disponibilidad al momento de la reserva. Las tarifas son en dólares americanos por persona en ocupación doble en cabina interior. El precio de referencia incluye contenido Crucero de Rock en español USD 70, no incluye tasas y otros cargos USD 260, ni incluye cargos por servicio y administración USD 98. El precio de la cabina varía de acuerdo a la categoría seleccionada. PASAPORTES VISADOS Y DOCUMENTACIÓN: Todos los consumidores, sin excepción (niños incluidos), deberán llevar consigo un pasaporte individual y/u otros documentos válidos para todos los países incluidos en el itinerario del viaje, así como los visados de entrada y de tránsito y los certificados sanitarios que pudieran ser requeridos. Es por ello, que será por cuenta de los mismos cuando los viajes así lo requieran la obtención de visados, pasaportes, certificados de vacunación, etc.
+          Cupos limitados y sujetos a disponibilidad al momento de la reserva. Las tarifas son en dólares americanos por persona en ocupación doble en cabina interior. El precio de referencia incluye contenido Crucero de Rock en español USD 70, no incluye tasas y otros cargos USD 260, ni incluye cargos por servicio y administración USD 98. El precio de la cabina varía de acuerdo a la categoría seleccionada. PASAPORTES VISADOS Y DOCUMENTACIÓN: Todos los consumidores, sin excepción (niños incluidos), deberán llevar consigo un pasaporte individual y/u otros documentos válidos para todos los países incluidos en el itinerario del viaje, así como los visados de entrada y de tránsito y los certificados sanitarios que pudieran ser requeridos. Es por ello, que será por cuenta de los mismos cuando los viajes así lo requieran la obtención de visados, pasaportes, certificados de vacunación, etc.
         </p>
 
 
@@ -355,7 +353,7 @@
     </footer>
 
     <div class="reveal" id="formModal" data-reveal data-animation-in="slide-in-down fast" data-animation-out="slide-out-up fast" >
-      <iframe src="https://pub.s7.exacttarget.com/spccdsgbpgm?web=TRA&idiom=es_ES&_ga=" frameborder="0"></iframe>
+      <iframe data-src="https://pub.s7.exacttarget.com/tn2vinfxhgn?web=TRA&idiom=es_ES&_ga=2.204375056.1284768722.1565710197-552274187.1564603494" frameborder="0" id="iframeLoad"></iframe>
        <button class="close-button" data-close aria-label="Close modal" type="button">
         <span aria-hidden="true">&times;</span>
       </button>

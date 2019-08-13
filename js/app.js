@@ -31,10 +31,21 @@ $(document).ready(function(){
 	})
 
 	$('.newslater-event').click(function(){
+		var id = $('#iframeLoad');
+		var attr = id.data('src');
+
+		id.get(0).src = attr;
+
 		dataLayer.push({'event':'ga-event','eventCategory':'informativa_crucero_graciastotales','eventAction':'call-me-back'})	
+
 	})
 
 	$('.callmeback-event').click(function(){
+		var id = $('#iframeLoad');
+		var attr = id.data('src');
+
+		id.get(0).src = attr;
+		
 		dataLayer.push({'event':'ga-event','eventCategory':'informativa_crucero_graciastotales','eventAction':'call-me-back'})	
 	})
 
@@ -46,6 +57,10 @@ $(document).ready(function(){
 		event.preventDefault();
 
 		$('#map-responsive').slideToggle();
+	})
+
+	$('#formModal').on('closed.zf.reveal', function(){
+		$('#iframeLoad').get(0).src = '';
 	})
 
 })
