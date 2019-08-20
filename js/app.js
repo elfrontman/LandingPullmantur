@@ -1,5 +1,7 @@
 $(document).foundation()
 
+ window.addEventListener('load', decorateURL)
+
 $('.slider ul').slick({
 	infinite: false,
 	slidesToShow: 3,
@@ -31,6 +33,8 @@ $(document).ready(function(){
 	})
 
 	$('.newslater-event').click(function(){
+		decorateURL();
+		
 		var id = $('#iframeLoad');
 		var attr = id.data('src');
 
@@ -64,3 +68,23 @@ $(document).ready(function(){
 	})
 
 })
+
+function decorateURL(){
+ 	var gobj = window[window.GoogleAnalyticsObject];
+    var url = 'https://pub.s7.exacttarget.com/eez30ixnuo1?web=TRA&idiom=es_ES';
+    var traker, linker;
+
+    console.log(gobj)
+    if(gobj){
+      traker = gobj.getAll()[0];
+      linker = new window.gaplugins.Linker(traker);
+      url = linker.decorate(url);
+    }
+
+    var urlDeco = "" + url + "";
+    var iframeCMB = document.getElementById('iframeLoad');
+
+    console.log(urlDeco)
+
+    iframeCMB.setAttribute('data-src', urlDeco)
+}
